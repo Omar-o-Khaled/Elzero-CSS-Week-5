@@ -1,0 +1,69 @@
+.page{
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+    height: 92vh;
+
+}
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+margin: 0 0 10px 0;
+height: 10%;
+}
+.logo{
+    background-color: gainsboro;
+    width: 10%;
+    padding: 15px 5px;
+
+}
+.links{
+    background-color: gainsboro;
+    width: 87%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 5px;
+    margin: 0;
+
+}
+.links li{
+    margin: 0 10px;
+}
+.main-area{
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+}
+.main-area .content{
+    background-color: gainsboro;
+    width: 64%;
+    padding: 5px;
+    
+}
+.main-area .sidebar{
+    background-color: gainsboro;
+    padding: 5px;
+    width: 33%;
+
+}
+.footer{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 10%;
+    margin-top: 10px;
+    align-items: center;
+}
+.footer .copyright{
+
+}
+.footer .design{
+
+}

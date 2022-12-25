@@ -1,0 +1,38 @@
+*{
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+}
+.parent{
+    width: 500px;
+    height: 200px;
+    background-color: #eee;
+    padding: 20px;
+    margin: 100px auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    transition-duration: .5s;
+}
+
+.parent .child{
+    background: #BDBDBD;
+    padding: 15px;
+    margin: 15px 0;
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+.parent:hover{
+    top: -30px;
+}
+
+.parent:hover .child{
+    margin: 50px 0;
+}
